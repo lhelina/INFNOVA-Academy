@@ -1,16 +1,36 @@
-# React + Vite
+INFNOVA Course Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive course listing platform built with React.
+This project fetches course data from an external API and allows users to search and explore course details.
 
-Currently, two official plugins are available:
+<img width="1330" height="626" alt="image" src="https://github.com/user-attachments/assets/2c40ad14-af8b-43c8-83bd-fb5df147c03a" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="1309" height="611" alt="image" src="https://github.com/user-attachments/assets/0f357107-8a33-460e-a3a4-4d6129899b7b" />
+<img width="1319" height="598" alt="image" src="https://github.com/user-attachments/assets/3cc8767a-c10a-4ca5-a86e-74774bddc419" />
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+Features
+-API integration using fetch
+-Dynamic search filtering (title, category, instructor)
+-Error handling with retry option
+-Empty search result handling
+-Responsive design using Tailwind CSS
+-Course detail page with routing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack
+-React
+-React Router
+-Tailwind CSS
+-JavaScript (ES6+)
+
+Installation
+```
+npm install
+npm run dev
+```
+
+Live Demo
+```
+https://infnova-acadamy.netlify.app/
+```
